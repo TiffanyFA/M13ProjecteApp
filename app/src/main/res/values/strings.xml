@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">ProjecteM13</string>
+
+    <string name="title_activity_cover">CoverActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
 </resources>
