@@ -1,3 +1,31 @@
 <resources>
+    <!-- app-->
     <string name="app_name">ProjecteM13</string>
+
+    <!--home mainactivity-->
+    <string name="image_buttons">IB</string>
+
+    <!--cover-->
+    <string name="title_activity_cover"></string>
+
+    <!--contact-->
+    <string name="contact_name">David Espino Roca</string>
+    <string name="contact_mail">massatgesreus@gmail.com</string>
+    <string name="contact_tel">699723789</string>
+
+    <!--map-->
+    <string name="title_activity_map">Map</string>
+
+
+    <!--login-->
+    <string name="title_activity_login">Login</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
 </resources>

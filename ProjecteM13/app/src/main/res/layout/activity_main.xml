@@ -4,15 +4,79 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".activities.HomeActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <ImageButton
+                android:id="@+id/iv_services"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/image_buttons"
+                android:cropToPadding="false"
+                android:scaleType="center"
+                android:src="@drawable/services"
+                android:visibility="visible"
+                tools:src="@drawable/services" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <ImageButton
+                android:id="@+id/iv_reservation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:adjustViewBounds="false"
+                android:contentDescription="@string/image_buttons"
+                android:src="@drawable/reservation"
+                android:visibility="visible"
+                tools:src="@drawable/reservation"
+                tools:srcCompat="@drawable/reservation" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/iv_maps"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/image_buttons"
+                android:scaleType="fitXY"
+                android:src="@drawable/maps"
+                android:visibility="visible"
+                tools:src="@drawable/maps"
+                tools:srcCompat="@drawable/maps" />
+
+            <ImageButton
+                android:id="@+id/iv_contact"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/image_buttons"
+                android:scaleType="fitXY"
+                android:src="@drawable/contact"
+                android:visibility="visible"
+                tools:src="@drawable/contact"
+                tools:srcCompat="@drawable/contact" />
+        </TableRow>
+
+    </TableLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
