@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activities.HomeActivity">
+    tools:context=".activities.MainActivity"
+    android:background="#000">
 
     <TableLayout
         android:layout_width="match_parent"
@@ -42,6 +43,7 @@
                 android:contentDescription="@string/image_buttons"
                 android:src="@drawable/reservation"
                 android:visibility="visible"
+                android:cropToPadding="false"
                 tools:src="@drawable/reservation"
                 tools:srcCompat="@drawable/reservation" />
 
@@ -61,6 +63,7 @@
                 android:scaleType="fitXY"
                 android:src="@drawable/maps"
                 android:visibility="visible"
+                android:cropToPadding="false"
                 tools:src="@drawable/maps"
                 tools:srcCompat="@drawable/maps" />
 
@@ -73,6 +76,7 @@
                 android:contentDescription="@string/image_buttons"
                 android:scaleType="fitXY"
                 android:src="@drawable/contact"
+                android:cropToPadding="false"
                 android:visibility="visible"
                 tools:src="@drawable/contact"
                 tools:srcCompat="@drawable/contact" />
