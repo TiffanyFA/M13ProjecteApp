@@ -4,6 +4,10 @@
 
     <!--home mainactivity-->
     <string name="image_buttons">IB</string>
+    <string name="home_services">VISIT MY WEB</string>
+    <string name="home_reservation">ASK FOR AN APPOINTMENT</string>
+    <string name="home_map">MAP</string>
+    <string name="home_contact">CONTACT</string>
 
     <!--cover-->
     <string name="title_activity_cover"></string>
@@ -16,16 +20,45 @@
     <!--map-->
     <string name="title_activity_map">Map</string>
 
-
     <!--login-->
     <string name="title_activity_login">Login</string>
-    <string name="prompt_email">Email</string>
-    <string name="prompt_password">Password</string>
-    <string name="action_sign_in">Sign in or register</string>
-    <string name="action_sign_in_short">Sign in</string>
-    <string name="welcome">"Welcome !"</string>
-    <string name="invalid_username">Not a valid username</string>
-    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="id_fmt">User ID: %s</string>
+    <string name="email_fmt">Email: %s</string>
     <string name="login_failed">"Login failed"</string>
+    <string name="reservation_button">Book Time</string>
+    <string name="login_title">Sign In</string>
+    <string name="signed_out">Signed out</string>
+    <string name="login_status_mail">Email: none</string>
+    <string name="sign_in">Sign in</string>
+    <string name="sign_out">Sign out</string>
+    <string name="login_linking">Account Linking</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="login_link_account">Link Account</string>
+    <string name="emailpassword_status_fmt">Email User: %1$s (verified: %2$b)</string>
+    <string name="emailpassword_title_text">Email and Password</string>
+    <string name="firebase_status_fmt">User: %s</string>
+    <string name="create_account">Create Account</string>
+    <string name="verify_email">Verify Email</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_phone">Phone number</string>
+
+    <!-- calendar -->
+    <string name="calendar_previous">Previous</string>
+    <string name="calendar_next">Next</string>
+    <string name="calendar_time">9:00 - 10:00</string>
+    <string name="close">Closed!</string>
+    <string name="calendar_state_free">Available</string>
+    <string name="calendar_state_full">Full</string>
+
+    <!-- confirm -->
+    <string name="confirm_thanks">Thank you for booking our services!</string>
+    <string name="confirm_info_title">Booking Information</string>
+    <string name="confirm_info_time">00:00 at dd/MM/yyyy</string>
+    <string name="confirm_btn">CONFIRM</string>
+    <string name="confirm_title">Session Reservation</string>
+    <string name="confirm_success">Success!</string>
+    <string name="loading">Loading</string>
+    <string name="auth_failed">Failed!</string>
 
 </resources>

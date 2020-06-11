@@ -8,9 +8,10 @@ import android.view.View;
 import android.widget.ImageButton;
 
 import org.insbaixcamp.projectem13.R;
-import org.insbaixcamp.projectem13.activities.ui.login.LoginActivity;
+import org.insbaixcamp.projectem13.activities.reservation.LoginActivity;
 
 public class MainActivity extends AppCompatActivity {
+
     ImageButton ibServices;
     ImageButton ibReservation;
     ImageButton ibMap;

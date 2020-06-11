@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1049490834067",
+    "firebase_url": "https://calendari-5a806.firebaseio.com",
+    "project_id": "calendari-5a806",
+    "storage_bucket": "calendari-5a806.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1049490834067:android:0d708b978ecf9675a94366",
+        "android_client_info": {
+          "package_name": "org.insbaixcamp.projectem13"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1049490834067-o7qog04qlena4t9uthsqmggc7tmv8209.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.insbaixcamp.projectem13",
+            "certificate_hash": "dcb8a3c97d6c802c839623e489b954b6c730ebf5"
+          }
+        },
+        {
+          "client_id": "1049490834067-j4dkeigffukbmkgmcu3d0ck7p2a138iq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzotECR3vQVXDDXe-NuHj-_VPxIk-lku8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1049490834067-j4dkeigffukbmkgmcu3d0ck7p2a138iq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
